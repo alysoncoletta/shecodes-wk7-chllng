@@ -1,0 +1,67 @@
+body {
+	text-align: center;
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+.weatherApp {
+	margin: 20px;
+	padding: 20px;
+	background-color: rgb(173, 216, 230, 0.3);
+	max-width: 500px;
+}
+
+.rounded {
+	border-radius: 1rem !important;
+}
+
+.mainIcon {
+	font-size: 48px;
+	color: rgb(255, 222, 38);
+}
+
+.sunny {
+	color: rgb(255, 222, 38);
+}
+
+.actualTime {
+	font-size: 14px;
+}
+
+.weatherType {
+	font-size: 18px;
+}
+
+.future-weather {
+	margin-top: 10px;
+}
+
+#weatherNow {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+}
+
+#inputCity {
+	border: none;
+	padding: 5px;
+	border-radius: 10px;
+}
+#searchButton,
+#currentLocation {
+	border: none;
+	border-radius: 10px;
+	transition: all 200ms ease-in-out;
+}
+
+#searchButton:hover,
+#currentLocation:hover {
+	color: white;
+	background-color: black;
+}
+
+#fahrenheit,
+#celsius {
+	text-decoration: none;
+	color: rgb(9, 179, 209);
+}
